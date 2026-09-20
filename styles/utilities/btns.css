@@ -1,0 +1,64 @@
+#curriculo {
+  font-family: "Coolvetica", sans-serif;
+  font-weight: bolder;
+  z-index: 2;
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  border: var(--main) 3px solid;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: var(--main);
+  transition: all 0.5s ease;
+  letter-spacing: 3px;
+}
+
+#curriculo:hover {
+  letter-spacing: 5px;
+  background: var(--main);
+  color: var(--third);
+  box-shadow: var(--main) 0px 7px 29px 0px;
+}
+#curriculo:active {
+  letter-spacing: 3px;
+  background-color: var(--main);
+  color: var(--third);
+  box-shadow: var(--main) 0px 0px 0px 0px;
+  transition: 300ms ease;
+}
+
+#back-top-btn {
+  position: fixed;
+  z-index: 999;
+  transform-origin: center;
+  right: 2%;
+  bottom: 4%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: transparent;
+  border: var(--main) 3px solid;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: var(--main);
+  transition: all 0.5s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+#back-top-btn:hover {
+  background: var(--main);
+  color: var(--third);
+  box-shadow: var(--main) 0px 4px 15px 0px;
+  transform: translateY(-5px);
+}
+
+#back-top-btn.active {
+  pointer-events: auto;
+  opacity: 1;
+}

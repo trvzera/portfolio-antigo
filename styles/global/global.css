@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  transition: 0.5s ease;
+
+}
+
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("/font/CoolveticaRg.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Dela Gothic One";
+  src: url("/font/DelaGothicOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--bgcolor);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: inherit;
+}
+
+li {
+  color: inherit;
+}
+
+body::-webkit-scrollbar {
+  padding-right: 5px;
+  background: var(--third);
+  width: 0.6em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px var(--cardcolor);
+  border-radius: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: var(--skillgradient);
+}
+

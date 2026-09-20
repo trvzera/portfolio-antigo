@@ -1,0 +1,101 @@
+@media (max-width: 1850px) {
+  #middle-skill {
+    a {
+      padding: 15px;
+      font-size: 1rem;
+    }
+  }
+  #skills {
+    height: 100vh;
+    padding: 0px 150px;
+  }
+
+  #skill-container {
+    flex-wrap: 250px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 1600px) {
+  #skill-container {
+    flex-wrap: 250px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1500px) {
+  #skill-container {
+    flex-wrap: 250px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 1310px) {
+  #skills {
+    padding-top: 50px;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    background-size: cover;
+  }
+  #middle-skill {
+    width: 70%;
+    bottom: 10%;
+  }
+
+  #skill-container {
+    width: 80%;
+  }
+  #soft-skills {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1310px) {
+  #skill-container {
+    width: 100%;
+  }
+  .skill2-box {
+    width: 55%;
+  }
+}
+
+@media (max-width: 915px) {
+  #skills {
+    height: 330vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+  }
+  #skills2-container {
+    flex-direction: column;
+  }
+  #middle-skill {
+    position: relative;
+    width: 100%;
+    bottom: 0%;
+    .line {
+      width: 15%;
+    }
+    a {
+      padding: 10px;
+      font-size: 0.75rem;
+    }
+  }
+  #skill-container {
+    height: 100%;
+    width: 100%;
+  }
+  #curriculo {
+    text-align: center;
+    width: 50%;
+  }
+  .skill2-box {
+    width: 70%;
+  }
+  #soft-skills {
+    width: 70%;
+  }
+}

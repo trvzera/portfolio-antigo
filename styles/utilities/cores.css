@@ -1,0 +1,113 @@
+body {
+  /* img */
+
+  --medo: url(/imgs/medoroxo_00000_00000.png);
+  --darkgrad: url(/imgs/darkgrad_00000.webp);
+  --bg: url(/imgs/darkbg_00000.webp);
+  --giovanni: url(/imgs/giovanniroxo_00000_00000.png);
+  --cardimg: url(/imgs/carddark_00000.webp);
+  --motion: url(/imgs/motiondark_00000.webp);
+  --mmv: url(/imgs/mmvdark_00000.webp);
+  --d3: url(/imgs/3ddark_00000.webp);
+
+  /* cores */
+
+  --back-icon: #4d306f;
+  /* --bg: #0b0313; */
+  --bgcolor: #0b0414;
+  --border: #0303134d;
+  --border2: #4d306f6b;
+  --cardskill: #11003036;
+  --circle: #9370db4d;
+  --contact: #19072b;
+  --darkgray: #030313;
+  --droplang: #af72ec99;
+  --icon-color: #110030;
+  --input: #2f1b42;
+  --main: #7f41d0;
+  --menucolor: #1a062e99;
+  --shadow: #9c41d04d;
+  --second: #9741d0;
+  --text: #1e0e3694;
+  --third: #110030;
+  --white: #ddeafa;
+
+  /* gradients */
+
+  --cardbefore: linear-gradient(43deg, #7f41d0 0%, #8850c8 46%, #9b70ff 100%);
+  --cardcolor: linear-gradient(
+    43deg,
+    #0a001d 0%,
+    #402268 46%,
+    rgb(80, 50, 109) 100%
+  );
+  /* --darkgrad: linear-gradient(180deg, #25003b 10%, #0b0313 100%); */
+  --skillgradient: linear-gradient(
+    43deg,
+    #7f41d0 0%,
+    #7a50c8 46%,
+    #9b70ff 100%
+  );
+  --wordcolor: linear-gradient(
+    to bottom,
+    rgb(114, 116, 236),
+    rgb(89, 9, 163),
+    rgb(52, 6, 104)
+  );
+}
+
+body.light {
+  /* img */
+
+  --medo: url(/imgs/medoazul_00000.png);
+  --darkgrad: url(/imgs/lightgrad_00000.webp);
+  --bg: url(/imgs/lightbg_00000.webp);
+  --giovanni: url(/imgs/giovanniazul_00000.png);
+  --cardimg: url(/imgs/cardlight_00000.webp);
+  --motion: url(/imgs/motionlight_00000.webp);
+  --mmv: url(/imgs/mmvlight_00000.webp);
+  --d3: url(/imgs/3dlight_00000.webp);
+
+  /* cores */
+
+  --back-icon: #b6cefe;
+  /* --bg: #d1e7ff; */
+  --bgcolor: #dff6fc;
+  --border: #ffffff4d;
+  --border2: #b6cefe88;
+  --cardskill: #ddeafa82;
+  --circle: #82c7ff4d;
+  --contact: #b3daff;
+  --darkgray: #e0eeff;
+  --droplang: #70a2ff99;
+  --icon-color: #70a2ff;
+  --input: #d3eaff;
+  --main: #70a4fd;
+  --shadow: #7aa2ff4d;
+  --second: #70a2ff;
+  --text: #cadfeb6b;
+  --third: #eaebfa;
+  --white: #ffffff8c;
+
+  /* gradients */
+
+  --cardbefore: linear-gradient(43deg, #5641d0 0%, #5062c8 46%, #70a2ff 100%);
+
+  --cardcolor: linear-gradient(
+    43deg,
+    #cacdff 0%,
+    #bacce3 51.2%,
+    #7590b3 100.1%
+  );
+
+  /* --darkgrad: linear-gradient(360deg, #d1e7ff 50%, #549bff 100%); */
+
+  --skillgradient: linear-gradient(to bottom, #6cbff7, #70a4fd, #a0b7f7);
+
+  --wordcolor: linear-gradient(
+    to bottom,
+    #bcbff7 0%,
+    rgb(170, 214, 235) 51.2%,
+    rgb(161, 196, 243) 100.1%
+  );
+}

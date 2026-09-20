@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <link rel="preload" as="image" fetchpriority="high" href="/imgs/carddark_00000.webp">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Giovanni Trivellato — Desenvolvedor Web e Editor de Vídeos e Imagens">
+    <title>Portfolio Giovanni Trivellato</title>
+    <link rel="icon" href="imgs/favicon2.png">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div id="header-btns">
+                <div class="lang">
+                    <input type="checkbox" name="check" class="checkbox" aria-label="Trocar linguagem">
+                    <div class="lang-bg"></div>
+                    <i class="fa-solid fa-chevron-down lang-icon"></i>
+                    <p class="lang-txt">pt</p>
+                    <div class="droplang">
+                        <a href="./index.html" aria-label="Português Brasileiro">PT-BR</a>
+                        <div id="bottombar"></div>
+                        <a href="./english.html" aria-label="Inglês Estadunidense">EN-US</a>
+                    </div>
+                </div>
+                <i class="fa-solid fa-circle-half-stroke" id="tema" onclick="light()">
+                </i>
+                <label class="hamburger">
+                    <input type="checkbox" name="mobile-chk" id="mobile-chk" aria-label="Abrir menu mobile">
+                    <svg viewBox="0 0 32 32">
+                        <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                        <path class="line" d="M7 16 27 16"></path>
+                    </svg>
+                    <aside id="menu">
+                        <ul id="ul-mobile">
+                            <li><a href="#main" aria-label="Página Principal" tabindex="0"><i class="fa-solid fa-house"></i>Início</a></li>
+                            <li><a href="#about" aria-label="Página Sobre" tabindex="0"><i class="fa-solid fa-book"></i>sobre</a></li>
+                            <li><a href="#skills" aria-label="Página de Habilidades" tabindex="0"><i class="fa-solid fa-lightbulb"></i>skills</a></li>
+                            <li><a href="#projects" aria-label="Página de Projetos" tabindex="0"><i class="fa-solid fa-folder-open"></i>projetos</a></li>
+                            <li><a href="#contact" aria-label="Página de Contato" tabindex="0"><i class="fa-solid fa-envelope"></i>contato</a></li>
+                            <li><a href="https://trvzera.com.br" aria-label="Site trvzera."><i class="fa-solid fa-quote-left"></i>trvzera.</a></li>
+                        </ul>
+                    </aside>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <header id="header2">
+        <nav id="apps-container">
+            <ul id="app-ul">
+                <li class="app-icon active-app" id="app1"><a href="#main" aria-label="Página Principal" tabindex="0"><i class="fa-solid fa-house"></i>
+                    </a></li>
+                <li class="app-icon" id="app2"><a href="#about" aria-label="Página Sobre" tabindex="0"><i class="fa-solid fa-book"></i>
+                    </a></li>
+                <li class="app-icon" id="app3"><a href="#skills" aria-label="Página de Habilidades" tabindex="0"><i class="fa-solid fa-lightbulb"></i>
+                    </a></li>
+                <li class="app-icon" id="app4"><a href="#projects" aria-label="Página de Projetos" tabindex="0"><i class="fa-solid fa-folder-open"></i>
+                    </a></li>
+                <li class="app-icon" id="app5"><a href="#contact" aria-label="Página de Contato" tabindex="0"><i class="fa-solid fa-envelope"></i>
+                    </a></li>
+            </ul>
+        </nav>
+        <nav id="apps-container">
+            <ul>
+                <li>
+                    <div id="header-btns">
+                        <div class="lang">
+                            <input type="checkbox" name="check" class="checkbox" aria-label="Alterar linguagem">
+                            <div class="lang-bg"></div>
+                            <i class="fa-solid fa-language" id="lang-icon"></i>
+                            <div class="droplang">
+                                <a aria-label="Português Brasileiro" id="active-lang">PT-BR</a>
+                                <div id="bottombar"></div>
+                                <a href="./english.html" aria-label="Inglês Estadunidense">EN-US</a>
+                            </div>
+                        </div>
+                        <div class="app-icon" id="app5"><a href="https://www.trvzera.com.br" target="_blank" aria-label="Site trvzera" tabindex="0"><i class="fa-solid fa-fingerprint"></i>
+                            </a></div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <a href="#main" id="back-top-btn" aria-label="Voltar para o topo">
+        <i class="fa-solid fa-arrow-up" id="up-icon"></i>
+    </a>
+    <main id="main" aria-label="principal">
+        <div id="text">
+            <h1 id="main-title">PRAZER, GIOVANNI</h1>
+            <div class="cardtxt">
+                <div class="loader">
+                    <p>Eu sou</p>
+                    <div class="words">
+                        <span class="word">Desenvolvedor Web</span>
+                        <span class="word">Motion Designer</span>
+                        <span class="word">Editor de Video</span>
+                        <span class="word">Desenvolvedor Front-End</span>
+                        <span class="word">Desenvolvedor Web</span>
+                    </div>
+                </div>
+            </div>
+            <div class="main-txt" id="txta1">
+                <p>Prazer, me chamo Giovanni Trivellato e tenho 17 anos. Sou apaixonado por tecnologia e design. Tenho experiência em HTML, CSS e JavaScript, além de domínio em ferramentas como After Effects, Photoshop e Blender, que me permitem explorar tanto o design digital quanto a criação de animações e modelagens.</p>
+            </div>
+            <div class="mini-card" id="mini1">
+                <img src="imgs/giovanni2.webp" alt="Giovanni Imagem 2" width="45px" height="45px">
+                <div id="mini-title">
+                    <p>@trvzera</p>
+                    <p>Disponível</p>
+                </div>
+                <a href="#contact" id="contact-btn" aria-label="Entrar em contato" tabindex="0">Contato</a>
+                <a href="https://docs.google.com/document/d/1RLWiMWD8McgHf5o1UyKnnWuUwedKc9bnopjsW5MVkgs/edit?usp=sharing" target="_blank" id="contact-btn" aria-label="Meu curriculo" tabindex="0">Meu CV</a>
+            </div>
+
+        </div>
+        <div id="card-txt">
+            <div class="container noselect">
+                <div class="canvas">
+                    <div class="tracker tr-1"></div>
+                    <div class="tracker tr-2"></div>
+                    <div class="tracker tr-3"></div>
+                    <div class="tracker tr-4"></div>
+                    <div class="tracker tr-5"></div>
+                    <div class="tracker tr-6"></div>
+                    <div class="tracker tr-7"></div>
+                    <div class="tracker tr-8"></div>
+                    <div class="tracker tr-9"></div>
+                    <div class="tracker tr-10"></div>
+                    <div class="tracker tr-11"></div>
+                    <div class="tracker tr-12"></div>
+                    <div class="tracker tr-13"></div>
+                    <div class="tracker tr-14"></div>
+                    <div class="tracker tr-15"></div>
+                    <div class="tracker tr-16"></div>
+                    <div class="tracker tr-17"></div>
+                    <div class="tracker tr-18"></div>
+                    <div class="tracker tr-19"></div>
+                    <div class="tracker tr-20"></div>
+                    <div class="tracker tr-21"></div>
+                    <div class="tracker tr-22"></div>
+                    <div class="tracker tr-23"></div>
+                    <div class="tracker tr-24"></div>
+                    <div class="tracker tr-25"></div>
+                    <div id="card">
+                    </div>
+                </div>
+            </div>
+            <div id="alt-txts">
+                <div class="main-txt" id="txta2">
+                    <p>Prazer, me chamo Giovanni Trivellato e tenho 17 anos. Sou apaixonado por tecnologia e design. Tenho experiência em HTML, CSS e JavaScript, além de domínio em ferramentas como After Effects, Photoshop e Blender, que me permitem explorar tanto o design digital quanto a criação de animações e modelagens.</p>
+                </div>
+                <div class="mini-card" id="mini2">
+                    <img src="imgs/giovanni2.webp" alt="" width="45px">
+                    <div id="mini-title">
+                        <P>@trvzera</P>
+                        <p>Disponível</p>
+                    </div>
+                    <a href="#contact" id="contact-btn" aria-label="Entrar em contato">Contato</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section id="about" aria-label="sobre">
+        <div id="about-content">
+            <div>
+                <h1>// Sobre Mim</h1>
+                <div id="about-line"></div>
+                <p id="about-txt">Me chamo Giovanni Trivellato, tenho 17 anos e sou de Belo Horizonte - MG. Atualmente estou cursando o segundo ano ensino médio técnico no colégio COTEMIG. Sempre fui apaixonado por tecnologia e design desde criança. Tenho grande conhecimento em HTML, CSS e JavaScript para desenvolvimento web, além de domínio em ferramentas como After Effects, Photoshop e Blender para edições de vídeo e manipulação de imagens.
+                    Tenho experiência em vários tipos de vídeo, seja cortes, vídeos curtos, longos, motion ou animações. Além da escola, estou fazendo outros cursos de forma online com o objetivo de ampliar cada vez mais o meu conhecimento,
+                </p>
+                <h2>// Cursos</h2>
+                <div id="cursos-container">
+                    <a href="https://www.afterflix.com" target="_blank" class="cursos" id="afterflix" aria-label="Curso Afterflix">
+                        <div class="status">
+                            <div class="bolinha1">
+                            </div>
+                            <p>concluído</p>
+                        </div>
+                        <h3>Afterflix</h3>
+                    </a>
+
+                    <a href="https://layerlemonade.com" target="_blank" class="cursos" id="layer" aria-label="Curso Layer Leomnade">
+                        <div class="status">
+                            <div class="bolinha1">
+                                <div class="bolinha2"></div>
+                            </div>
+                            <p>cursando</p>
+                        </div>
+                        <h3>Layer Lemonade - Motion Monster</h3>
+                    </a>
+
+                    <a href="https://www.origamid.com" target="_blank" class="cursos" id="origamid" aria-label="Curso Origamid">
+                        <div class="status">
+                            <div class="bolinha1">
+                                <div class="bolinha2"></div>
+                            </div>
+                            <p>cursando</p>
+                        </div>
+                        <h3>Origamid</h3>
+                    </a>
+
+                    <a href="https://hotmart.com/pt-br/club/lucasflizi" target="_blank" class="cursos" id="flizi" aria-label="Curso de Photoshop">
+                        <div class="status">
+                            <div class="bolinha1">
+                                <div class="bolinha2"></div>
+                            </div>
+                            <p>cursando</p>
+                        </div>
+                        <h3>Photoshop - Dominando tudo!</h3>
+                    </a>
+                    <a href="https://hotmart.com/pt-br/club/lucasflizi" target="_blank" class="cursos" id="cotemig" aria-label="Curso COTEMIG">
+                        <div class="status">
+                            <div class="bolinha1">
+                                <div class="bolinha2"></div>
+                            </div>
+                            <p>cursando</p>
+                        </div>
+                        <h3>COTEMIG - Desenvolvimento Web & Mobile</h3>
+                    </a>
+                </div>
+            </div>
+            <div id="about-img">
+
+            </div>
+        </div>
+    </section>
+    <section id="skills" aria-label="Habilidades">
+        <div id="skills2-container">
+            <div class="skill2-box">
+                <h1 class="h1-skill2">Minhas Habilidades</h1>
+                <div class="skill-level">
+                    <div class="skill-level-title">
+                        <p>HTML</p>
+                        <p>100%</p>
+                    </div>
+                    <div class="skill-level-box">
+                        <div class="skill-bar" id="html-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-title">
+                        <p>CSS</p>
+                        <p>100%</p>
+                    </div>
+                    <div class="skill-level-box">
+                        <div class="skill-bar" id="html-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-title">
+                        <p>JS</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="skill-level-box">
+                        <div class="skill-bar" id="js-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-title">
+                        <p>After Effects</p>
+                        <p>100%</p>
+                    </div>
+                    <div class="skill-level-box">
+                        <div class="skill-bar" id="html-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-title">
+                        <p>Photoshop</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="skill-level-box">
+                        <div class="skill-bar" id="ps-bar"></div>
+                    </div>
+                </div>
+                <div class="skill-level">
+                    <div class="skill-level-title">
+                        <p>Blender</p>
+                        <p>40%</p>
+                    </div>
+                    <div class="skill-level-box">
+                        <div class="skill-bar" id="blender-bar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill2-box" id="soft-skills">
+                <h1 class="h1-skill2">Soft-skills</h1>
+                <p class="soft-skills">Inglês - Fluente</p>
+                <p class="soft-skills">Facilidade de aprendizado</p>
+                <p class="soft-skills">Boa comunicação verbal e escrita</p>
+                <p class="soft-skills">Proatividade</p>
+                <p class="soft-skills">Bom raciocínio lógico</p>
+               
+            </div>
+        </div>
+
+        <div id="skill-container">
+
+            <div class="card-skill" id="up-card">
+                <div class="cardglow"></div>
+                <div class="cardborderglow"></div>
+                <h1 class="skill-title">Desenvolvimento Web</h1>
+                <p class="skill-body">Desenvolvo site para uso pessoal ou empresarial com funções desejadas e com uma bela interface.</p>
+                <i class="fa-solid fa-code" id="icon-down"></i>
+            </div>
+
+            <div class="card-skill" id="up-card">
+                <div class="cardglow"></div>
+                <div class="cardborderglow"></div>
+                <h1 class="skill-title">Redesign</h1>
+                <p class="skill-body">Faço redesign no seu site, de forma que passar a mensagem que deseja passar de uma forma bonita.</p>
+                <i class="fa-solid fa-code" id="icon-down"></i>
+            </div>
+
+            <div class="card-skill" id="up-card">
+                <div class="cardglow"></div>
+                <div class="cardborderglow"></div>
+                <h1 class="skill-title">Configuração PC</h1>
+                <p class="skill-body">Faço limpeza, formatação, instalação e ativação windows, montagem em seu computador ou notebook.</p>
+                <i class="fa-solid fa-screwdriver-wrench" id="icon-down"></i><i class=""></i>
+            </div>
+
+            <div class="card-skill" id="up-card">
+                <div class="cardglow"></div>
+                <div class="cardborderglow"></div>
+                <h1 class="skill-title">Edição Vídeo</h1>
+                <p class="skill-body">Faço edições de vídeos curtos e longos para todas as plataformas, com edições dinâmicas e bonitas.</p>
+                <i class="fa-solid fa-photo-film" id="icon-down"></i>
+            </div>
+            <div class="card-skill" id="up-card">
+                <div class="cardglow"></div>
+                <div class="cardborderglow"></div>
+                <h1 class="skill-title">Animação</h1>
+                <p class="skill-body">Faço animação de personagens, logo, vinheta e overlays para seu uso desejado.</p>
+                <i class="fa-solid fa-person-running" id="icon-down"></i>
+            </div>
+
+            <div class="card-skill" id="up-card">
+                <div class="cardglow"></div>
+                <div class="cardborderglow"></div>
+                <h1 class="skill-title">Edição de imagens</h1>
+                <p class="skill-body">Faço edição de imagens, seja para thumbnail, post, ou qualquer outro tipo de uso.</p>
+                <i class="fa-solid fa-photo-film" id="icon-down"></i>
+            </div>
+
+
+        </div>
+    </section>
+    <section id="projects" aria-label="projetos">
+        <div class="prj-card">
+            <div class="prj-header">
+                <img src="/imgs/giovanni.webp" width="50px" height="50px" alt="">
+                <div class="prj-txt">
+                    <h1>Motion Design</h1>
+                    <p>@trvzera</p>
+                </div>
+            </div>
+            <div class="prj-img" id="motion-img">
+            </div>
+            <div class="prj-footer">
+                <p>7 projetos</p>
+                <a class="prj-btn" aria-label="Explorar projetos Motion Design" id="motion-btn">Explorar </a>
+            </div>
+        </div>
+        <dialog id="motion-prjs" class="prj-modal">
+            <div class="top-modal">
+                <h1 class="modal-h1">Projetos de Motion Design <span> - Aumente a qualidade dos vídeos para melhor experiência </span></h1>
+                <i class="fa-solid fa-xmark close-modal" id="close-motion"></i>
+            </div>
+
+            <div class="modal-container">
+                <div class="yt-lite" data-yt="bNjI9Kp4j8A">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Vinheta você pod mulher</div>
+                </div>
+
+                <div class="yt-lite" data-yt="qsFfx84iCmU">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Vinheta trvzera.</div>
+                </div>
+                <div class="yt-lite" data-yt="JxVU3uRk7yo">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Vinheta curta trvzera.</div>
+                </div>
+                <div class="yt-lite" data-yt="DeBEy-nQfrw">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Tela final youtube</div>
+                </div>
+                <div class="yt-lite" data-yt="AnYfTH6MDwU">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Live começando</div>
+                </div>
+                <div class="yt-lite" data-yt="uWvKVqpwlmE">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Live terminando</div>
+                </div>
+                <div class="yt-lite" data-yt="2by5Hgi1iK0">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Overlay inscreva-se</div>
+                </div>
+
+                <a href="#close-motion">Voltar para o topo</a>
+
+            </div>
+        </dialog>
+        <div class="prj-card">
+            <div class="prj-header">
+                <img src="/imgs/giovanni.webp" width="50px" height="50px" alt="">
+                <div class="prj-txt">
+                    <h1>Mangá Music Video</h1>
+                    <p>@trvzera</p>
+                </div>
+            </div>
+            <div class="prj-img" id="mmv-img">
+            </div>
+            <div class="prj-footer">
+                <p>10 projetos</p>
+                <a class="prj-btn" aria-label="Explorar projetos MMV" id="mmv-btn">Explorar</a>
+            </div>
+        </div>
+        <dialog id="mmv-prjs" class="prj-modal">
+            <div class="top-modal">
+                <h1 class="modal-h1">Projetos de MMV <span> - Aumente a qualidade dos vídeos para melhor experiência </span></h1>
+                <i class="fa-solid fa-xmark close-modal" id="close-mmv"></i>
+            </div>
+            <div class="modal-container">
+
+                <div class="yt-lite" data-yt="rIyDlYan6sM">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Violetas - Raphyx</div>
+                </div>
+
+                <div class="yt-lite" data-yt="DlYay1fxekE">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Bem ou Mal - oShaman</div>
+                </div>
+
+                <div class="yt-lite" data-yt="_KIUC_jIA2A">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Areia Vermelha - Chrono (incompleto)</div>
+                </div>
+                <div class="yt-lite" data-yt="4Nan_e5LSJ0">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Edit Joui</div>
+                </div>
+                <div class="yt-lite" data-yt="ItJLDosvghM">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Edit Jaser</div>
+                </div>
+                <div class="yt-lite" data-yt="EMShEAfOv_8">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Edit Joui 2</div>
+                </div>
+                <div class="yt-lite" data-yt="cjB5yi80yiE">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Edit Xande e Dara</div>
+                </div>
+                <div class="yt-lite" data-yt="FWNjjQbn1YQ">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Edit Xande</div>
+                </div>
+                <div class="yt-lite" data-yt="mJuiwwG3W1g">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Jaser Animation</div>
+                </div>
+
+                <a href="#close-mmv">Voltar para o topo</a>
+            </div>
+        </dialog>
+        <div class="prj-card">
+            <div class="prj-header">
+                <img src="/imgs/giovanni.webp" width="50px" height="50px" alt="">
+                <div class="prj-txt">
+                    <h1>3D</h1>
+                    <p>@trvzera</p>
+                </div>
+            </div>
+            <div class="prj-img" id="img-3d">
+            </div>
+            <div class="prj-footer">
+                <p>1 projeto</p>
+                <a class="prj-btn" aria-label="Explorar projetos 3D" id="d3-btn">Explorar</a>
+            </div>
+        </div>
+        <dialog id="3d-prjs" class="prj-modal">
+            <div class="top-modal">
+                <h1 class="modal-h1">Projeto 3D <span> - Aumente a qualidade dos vídeos para melhor experiência </span></h1>
+                <i class="fa-solid fa-xmark close-modal" id="close-3d"></i>
+            </div>
+            <div class="modal-container">
+                <div class="yt-lite" data-yt="ZhLc3NKXM9o">
+                    <div class="thumb"></div>
+                    <div class="play-btn">Edit SDOL</div>
+                </div>
+            </div>
+        </dialog>
+        <div class="prj-card">
+            <div class="prj-header">
+                <img src="/imgs/giovanni.webp" width="50px" height="50px" alt="">
+                <div class="prj-txt">
+                    <h1>Projetos Web</h1>
+                    <p>@trvzera</p>
+                </div>
+            </div>
+            <div class="prj-img" id="web-img">
+            </div>
+            <div class="prj-footer">
+                <p>X projetos</p>
+                <a class="prj-btn" aria-label="Explorar projetos WEB" id="web-btn">Explorar</a>
+            </div>
+        </div>
+        <dialog id="web-prjs" class="prj-modal">
+            <div class="top-modal">
+                <h1 class="modal-h1">Projeto web</h1>
+                <i class="fa-solid fa-xmark close-modal" id="close-web"></i>
+            </div>
+            <div class="modal-container">
+
+            </div>
+        </dialog>
+    </section>
+    <section id="contact">
+        <div id="contact-form">
+            <div id="contact-info">
+                <form action="https://api.web3forms.com/submit" method="post">
+                    <input type="hidden" name="access_key" value="78da8ce2-e7ef-4363-96e4-3fb36d832d93">
+                    <input type="text" name="name" id="name" placeholder="Nome" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <textarea name="message" required placeholder="Sua Mensagem"></textarea>
+                    <button type="submit" id="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div id="links">
+            <h1 id="contact-title">// Entre em contato</h1>
+            <p id="contact-p">Insira suas informações no formulário para entrar em contato comigo por email, você terá sua resposta assim que possível.
+                Se preferir, pode entrar em contato por alguma das redes sociais abaixo.
+            </p>
+            <h1>Minhas redes sociais:</h1>
+            <div id="social-container">
+                <a href="https://www.behance.net/trvzera" target="_blank">
+                    <i class="fa-brands fa-behance"></i>
+                    <p>Behance</p>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-github"></i>
+                    <p>GitHub</p>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p>LinkedIn</p>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-youtube"></i>
+                    <p>YouTube</p>
+                </a>
+            </div>
+
+        </div>
+        <footer>
+            <h1>Giovanni Trivellato</h1>
+            <div id="footer-itens">
+                <div><i class="fa-brands fa-whatsapp"></i>
+                    <p>+55 31 9 9591-7515</p>
+                </div>
+                <div><i class="fa-solid fa-envelope"></i>
+                    <p>contato.trvzera@gmail.com</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+</body>
+
+</html>

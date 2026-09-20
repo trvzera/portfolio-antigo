@@ -1,0 +1,175 @@
+
+
+@media (max-width: 1400px) {
+  main {
+    padding: 0px 150px;
+  }
+  .container {
+    width: 400px;
+    height: 524px;
+  }
+  .title {
+    h1 {
+      font-size: 1.25rem;
+    }
+  }
+  #text {
+    width: 640px;
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+  .loader {
+    font-size: 1rem;
+  }
+  .main-txt {
+    width: 640px;
+  }
+  #txt1a {
+    p {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+  #main {
+    padding: 60px 20px 0px 50px;
+  }
+  #mini1 {
+    display: none;
+  }
+  #mini2 {
+    width: max-content;
+    display: flex;
+  }
+
+  #alt-txts {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  #card-txt {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  #txta1 {
+    display: none;
+  }
+  #txta2 {
+    width: 100%;
+    display: inline-block;
+    p {
+      width: 100%;
+    }
+  }
+  .title {
+    h1 {
+      font-size: 1.5625rem;
+    }
+  }
+  #text {
+    h1 {
+      text-align: left;
+      font-size: 3.125rem;
+    }
+  }
+  .loader {
+    font-size: 1rem;
+  }
+  #main {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .container {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 900px) {
+  #main {
+    padding: 0;
+  }
+  #txta2 {
+    width: 60%;
+    display: inline-block;
+    p {
+      font-size: 1rem;
+    }
+  }
+  #down {
+    display: none;
+  }
+  #main {
+    height: 130vh;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .loader {
+    font-size: 0.625rem;
+  }
+  #text {
+    margin-left: 150px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      width: 500px;
+      font-size: 1.625rem;
+    }
+  }
+  #alt-txts {
+    width: 400px;
+  }
+  #card-txt {
+    flex-direction: column;
+    align-items: center;
+  }
+  #txta2 {
+    width: 100%;
+    display: inline-block;
+    p {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  footer {
+    height: 20vh;
+    h1 {
+      font-size: 1.2rem;
+    }
+  }
+  #footer-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+    height: 424px;
+  }
+  #text {
+    margin-left: 250px;
+    h1 {
+      font-size: 1.25rem;
+    }
+  }
+  #alt-txts {
+    width: 70%;
+  }
+
+  #contact-btn {
+    font-size: 0.625rem;
+  }
+}

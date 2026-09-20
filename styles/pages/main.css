@@ -1,0 +1,66 @@
+
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: var(--darkgrad);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.5s ease;
+  padding-left: 100px;
+}
+
+#main-title {
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  transition: 0.5s ease;
+  animation: txt-main 3s ease;
+}
+.main-txt {
+  position: relative;
+  margin-top: 50px;
+  width: 800px;
+  color: var(--main);
+  font-style: italic;
+  opacity: 0.5;
+
+  p {
+    text-align: justify;
+    width: 80%;
+    font-size: 1.625rem;
+    transition: 0.5s ease;
+    font-family: "Coolvetica", sans-serif;
+    animation: txt-main 3.5s ease;
+  }
+}
+
+#txta2 {
+  display: none;
+}
+
+#down {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 3%;
+  font-size: 3.125rem;
+  color: var(--white);
+  animation: up 2s infinite ease, opacity 3s ease;
+  transform: translateY(-20px);
+  color: var(--main);
+  p {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+#card-txt {
+  animation: main-card 4s ease;
+}
