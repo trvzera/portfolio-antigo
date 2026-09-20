@@ -1,3 +1,4 @@
+@import "./utilities/cores.css";
 /* GLOBAL */
 @import "./global/global.css";
 
@@ -12,7 +13,6 @@
 @import "./pages/footer.css";
 
 /* UTILITIES */
-@import "./utilities/cores.css";
 @import "./utilities/btns.css";
 @import "./utilities/animations.css";
 

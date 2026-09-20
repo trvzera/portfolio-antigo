@@ -1,14 +1,14 @@
 body {
   /* img */
 
-  --medo: url(../../imgs/medoroxo_00000_00000.png);
-  --darkgrad: url(../../imgs/darkgrad_00000.webp);
-  --bg: url(../../imgs/darkbg_00000.webp);
-  --giovanni: url(../../imgs/giovanniroxo_00000_00000.png);
-  --cardimg: url(../../imgs/carddark_00000.webp);
-  --motion: url(../../imgs/motiondark_00000.webp);
-  --mmv: url(../../imgs/mmvdark_00000.webp);
-  --d3: url(../../imgs/3ddark_00000.webp);
+  --medo: url("../../imgs/medoroxo_00000_00000.png");
+  --darkgrad: url("../../imgs/darkgrad_00000.webp");
+  --bg: url("../../imgs/darkbg_00000.webp");
+  --giovanni: url("../../imgs/giovanniroxo_00000_00000.png");
+  --cardimg: url("../../imgs/carddark_00000.webp");
+  --motion: url("../../imgs/motiondark_00000.webp");
+  --mmv: url("../../imgs/mmvdark_00000.webp");
+  --d3: url("../../imgs/3ddark_00000.webp");
 
   /* cores */
 
@@ -59,14 +59,14 @@ body {
 body.light {
   /* img */
 
-  --medo: url(../../imgs/medoazul_00000.png);
-  --darkgrad: url(../../imgs/lightgrad_00000.webp);
-  --bg: url(../../imgs/lightbg_00000.webp);
-  --giovanni: url(../../imgs/giovanniazul_00000.png);
-  --cardimg: url(../../imgs/cardlight_00000.webp);
-  --motion: url(../../imgs/motionlight_00000.webp);
-  --mmv: url(../../imgs/mmvlight_00000.webp);
-  --d3: url(../../imgs/3dlight_00000.webp);
+  --medo: url("../../imgs/medoazul_00000_00000.png");
+  --darkgrad: url("../../imgs/lightgrad_00000.webp");
+  --bg: url("../../imgs/lightbg_00000.webp");
+  --giovanni: url("../../imgs/giovanniazul_00000_00000.png");
+  --cardimg: url("../../imgs/cardlight_00000.webp");
+  --motion: url("../../imgs/motionlight_00000.webp");
+  --mmv: url("../../imgs/mmvlight_00000.webp");
+  --d3: url("../../imgs/3dlight_00000.webp");
 
   /* cores */
 
